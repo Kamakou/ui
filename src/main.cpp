@@ -589,8 +589,8 @@ void display_field(){
     oled.print("Field");
   }else if (set_mode==1){
       oled.drawRect(25,5,75,50,WHITE);
-      oled.drawRoundRect(10,20,25,25,10,WHITE);
-      oled.drawRoundRect(89,20,25,25,10,WHITE);
+      oled.drawRoundRect(10,20,25,25,5,WHITE);
+      oled.drawRoundRect(85,20,25,25,5,WHITE);
       oled.fillRect(0,5,24,50,BLACK);
       oled.fillRect(101,5,25,50,BLACK);
       oled.fillCircle((coord_x+24),(coord_y+5),2,WHITE);//1=取得した座標
