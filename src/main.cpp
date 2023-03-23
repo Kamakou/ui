@@ -583,7 +583,6 @@ void display_mode_B() {
       }
 }
 
-
 void display_field(){
   if (set_mode==0){
     oled.setCursor(40,20);
